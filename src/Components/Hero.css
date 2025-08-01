@@ -1,0 +1,99 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 70px;
+  gap: 35px;
+}
+.hero_pic {
+  height: 350px;
+  border-radius: 40%;
+}
+
+.hero h2 {
+  width: 70%;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.hero h2 span {
+  background: linear-gradient(267deg, #da7c25, #b923e1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero p {
+  width: 50%;
+  color: #8d8d8d;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+}
+.hero-action {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.hero-connect {
+  cursor: pointer;
+  padding: 25px 45px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #da7c25, #b923e1);
+  &:hover {
+    border: 2px solid #fff;
+  }
+}
+.hero-resume {
+  background-color: black;
+  cursor: pointer;
+  padding: 25px 45px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  &:hover {
+    border-color: #b923e1;
+  }
+  & a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+  }
+}
+@media all and (max-width: 1024px) {
+  .hero {
+    margin: 20px;
+  }
+}
+@media all and (max-width: 500px) {
+  .hero {
+    margin: 3px;
+  }
+  .hero_pic {
+    height: 200px;
+  }
+  .hero h2 {
+    font-size: 20px;
+    width: 100%;
+  }
+  .hero p {
+    width: 100%;
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .hero-connect {
+    padding: 20px 20px;
+    font-size: 15px;
+  }
+  .hero-resume {
+    padding: 20px 20px;
+    & a {
+      padding: 20px 20px;
+      font-size: 15px;
+    }
+  }
+}

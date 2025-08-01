@@ -1,0 +1,87 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin: 80px 170px;
+}
+.about-title {
+  padding: 0px 30px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.profilePic {
+  height: 450px;
+  border-radius: 30%;
+}
+.about-section {
+  display: flex;
+  gap: 80px;
+}
+.about-right {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.about-para {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.about-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  & :hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+  }
+}
+.about-skill {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  transition: 0.3s;
+
+  & p {
+    min-width: 150px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  & hr {
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .about-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about {
+    margin: 20px;
+  }
+}
+@media all and (max-width: 500px) {
+  .about-title {
+    font-size: 20px;
+  }
+  .profilePic {
+    height: 300px;
+  }
+  .about-para {
+    font-size: 20px;
+  }
+  .about-skills {
+    display: none;
+  }
+}

@@ -1,0 +1,14 @@
+.footer {
+  margin: 40px 70px 0px 70px;
+  padding: 20px;
+  border-top: 2px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
