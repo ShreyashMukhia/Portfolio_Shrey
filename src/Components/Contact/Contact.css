@@ -5,6 +5,7 @@
 
 .contact-title {
   display: flex;
+
   justify-content: center;
   font-size: 40px;
   font-weight: 600;
@@ -13,12 +14,13 @@
 
 .contact-section {
   display: flex;
-  margin: 10px 400px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 .contact-left {
-  padding: 20px;
-  width: 50rem;
-  height: 30rem;
+  width: 600px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -32,7 +34,6 @@
   }
   & p {
     display: flex;
-
     flex-direction: column;
     font-size: 24px;
     font-weight: 500;
@@ -53,7 +54,9 @@
 }
 .contact-right {
   display: flex;
-  width: 50rem;
+  justify-content: center;
+  align-items: center;
+
   flex-direction: column;
   gap: 20px;
   & h1 {
@@ -140,6 +143,7 @@
   .contact-left {
     width: 350px;
   }
+
   .name {
     width: 300px;
   }
