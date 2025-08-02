@@ -14,16 +14,23 @@ function AboutMe() {
         <div className="about-right">
           <div className="about-para">
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Exercitationem minus consequatur voluptatem, quos dolor amet est
-              eos magnam obcaecati delectus ea cum iusto sunt corporis a
-              cupiditate labore illo in.
+              I'm Shreyash Mukhia, a passionate Front-End Web Developer with
+              hands-on experience in building responsive and user-friendly
+              interfaces using HTML, CSS, JavaScript, and ReactJS. I enjoy
+              creating clean, efficient code and love turning complex problems
+              into simple, beautiful designs.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              officia quo saepe ex eligendi totam numquam placeat inventore
-              provident unde molestiae, cum accusantium hic eum natus ab
-              necessitatibus eaque vel?
+              During my internship at B.Dreamz Global Solutions Pvt. Ltd., I
+              honed my skills in creating dynamic UI components and optimizing
+              mobile responsiveness to enhance user experience. I’ve worked on
+              real-time applications like a Movie Search App (with debounce for
+              performance) and a responsive E-commerce website, showcasing my
+              focus on performance and usability.
+            </p>
+            <p>
+              I’m always eager to learn new technologies, improve existing
+              solutions, and build meaningful digital experiences.
             </p>
           </div>
           <div className="about-skills">
