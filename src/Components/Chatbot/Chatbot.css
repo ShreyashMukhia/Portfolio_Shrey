@@ -211,3 +211,30 @@
 .Chat-form .message-input:valid ~ button {
   display: flex;
 }
+@media (max-width: 1024px) {
+  .Chat-popup {
+    width: 400px;
+    right: 20px;
+    bottom: 80px;
+  }
+}
+@media (max-width: 600px) {
+  .Chat-popup {
+    width: 90%;
+    height: 80vh;
+    right: 5%;
+    bottom: 80px;
+    border-radius: 12px;
+  }
+  .Chat-body {
+    height: calc(80vh - 140px);
+  }
+  .header-info .logo-text {
+    font-size: 1.5rem;
+  }
+  .Chat-header button {
+    height: 40px;
+    width: 40px;
+    font-size: 1.5rem;
+  }
+}
