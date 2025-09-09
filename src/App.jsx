@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { HashRouter as Router } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
@@ -7,9 +6,10 @@ import MyWork from "./Components/MyWork/MyWork";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import Chatbot from "./Components/Chatbot/Chatbot";
+
 function App() {
   return (
-    <>
+    <Router>
       <Navbar />
       <Hero />
       <AboutMe />
@@ -17,7 +17,7 @@ function App() {
       <Contact />
       <Footer />
       <Chatbot />
-    </>
+    </Router>
   );
 }
 

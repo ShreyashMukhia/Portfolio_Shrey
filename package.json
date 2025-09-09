@@ -1,13 +1,13 @@
 {
-  "homepage": "https://github.com/ShreyashMukhia/Portfolio_Shrey.git",
+  "homepage": "https://shreyashmukhia.github.io/Portfolio_Shrey",
   "name": "portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "vite",
     "build": "vite build",
-    "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
