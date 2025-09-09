@@ -44,7 +44,6 @@
   transform: scale(1.05);
 }
 
-/* ---------- Tablet ---------- */
 @media all and (max-width: 1024px) {
   .Navbar {
     margin: 10px;
@@ -69,7 +68,6 @@
   }
 }
 
-/* ---------- Mobile (Full-Screen Menu) ---------- */
 @media all and (max-width: 500px) {
   .nav-menu.hide,
   .nav-connect.hide {
@@ -78,15 +76,15 @@
 
   .hamburger-icon {
     display: block;
-    z-index: 1001; /* ensure above menu */
+    z-index: 1001;
   }
 
   .unhide {
-    position: fixed; /* cover screen */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh; /* full height */
+    height: 100vh;
     background-color: #000;
     display: flex;
     flex-direction: column;

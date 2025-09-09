@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  flex-wrap: wrap;
 }
 
 .copyright {
@@ -14,7 +14,6 @@
   align-items: center;
 }
 
-/* -------- Responsive Footer -------- */
 @media all and (max-width: 1024px) {
   .footer {
     margin: 30px 40px 0 40px;
